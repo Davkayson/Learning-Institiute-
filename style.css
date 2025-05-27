@@ -18,7 +18,7 @@ main {
   overflow: hidden;
 }
 
-section.header_section {
+section.header-section {
   background: #f3f3f3;
   background: radial-gradient(
     circle,
@@ -34,7 +34,6 @@ section.header_section {
     padding: 20px;
     position: relative;
     padding: 1rem 2rem 4rem;
-    /* z-index: 0; */
   }
 
   .navigation {
@@ -47,6 +46,7 @@ section.header_section {
   ul li {
     list-style: none;
   }
+
   a {
     text-decoration: none;
     color: black;
@@ -155,7 +155,6 @@ section.header_section {
   .equipped {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     background: #1f212c;
     margin: 40px 0;
     padding: 30px;
@@ -242,7 +241,6 @@ section.header_section {
     margin-block: 1rem;
   }
 
-
   .germany_section-parent {
     background-color: #232630;
     padding-block: 1.2rem;
@@ -265,7 +263,6 @@ section.header_section {
 
   .content2 i {
     margin-top: 5px;
-
   }
 
   .graduation-parent {
@@ -351,9 +348,8 @@ section.header_section {
     padding: 3rem;
   }
 
-  .image5 img {
-    display: ; 
-    width: 100%;
+  .image5 img { 
+    width: 100%; 
     height: 80%;
   }
 
@@ -374,17 +370,13 @@ section.header_section {
   margin-top: 1rem;
  }
 
-
-
  .testimony-parent {
   background-color: #f9f9f8;
   padding-left: 70px;
   padding-right: 70px;
   padding-bottom: 50px;
   padding-top: 50px;
-  /* margin-inline: auto; */
  }
-
 
  .testimony-parent h1 {
   display: flex;
@@ -412,19 +404,14 @@ section.header_section {
   padding: 1.5rem;
  }
  
-
-
-
  .footer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   color: white;
-  /* margin-block: 2rem; */
  }
 
  .footer ul > li {
   padding-block: 1rem;
-  
  }
 
  .footer ul > li > a {
@@ -435,17 +422,5 @@ section.header_section {
   display: grid;
   justify-content: center;
  }
-
-
-
-
-
-
-
-  
- 
-
-
-
 
 }
