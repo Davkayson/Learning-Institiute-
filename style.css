@@ -86,8 +86,8 @@ section.header-section {
     inset: 0;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 2;
-
   }
+
   .hero_image {
     position: absolute;
     right: 0;
@@ -147,6 +147,7 @@ section.header-section {
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
+
   .content:hover {
     transform: translateY(-5px);
   }
@@ -176,6 +177,7 @@ section.header-section {
     padding-block: 20px;
     line-height: 3rem;
   }
+
   .equip {
     border-radius: 10px;
     margin: 20px;
@@ -328,43 +330,40 @@ section.header-section {
 
   .learn_section {
     width: 100vw;
+    height: auto;
   }
 
   .learn-parent {
     display: flex;
-    margin-inline: auto;
     justify-content: center;
     align-items: center;
     gap: 1rem;
     color: white;
   }
 
-  .learn-container {
-    padding: 4rem;
-  }
-
   .image5 {
     display: flex;
-    width:500px;
+    width:20%;
+    height: 20%;
     padding: 3rem;
   }
 
-  .image5 img { 
-    width: 100%; 
-    height: 80%;
+   .image5 img { 
+    border-radius: 3rem;
+  } 
+
+  .learn-container {
+    display: grid;
   }
 
   .icon-learn {
-    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
  }
 
  .icon-child {
   display: flex;
-  gap: 1rem;
- }
-
- .icon-child i {
-  margin-top: 5px;
+  padding-block: 10px;
  }
 
  .enquire {
@@ -395,7 +394,7 @@ section.header-section {
 
  .testimony p {
   display: flex;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px #0000001a;
   border: 2px solid black;
   border-radius: 10px;
   padding: 20px;
@@ -423,7 +422,6 @@ section.header-section {
   display: grid;
   justify-content: center;
  }
-
 }
 
 
@@ -534,24 +532,19 @@ section.header-section {
   .amenities {
     margin-block: 4rem;
     padding-inline: 6%;
-    /* display: grid; */
-    /* grid-template-columns: repeat(4, 1fr); */
     gap: 10px;
   }
 
   .content {
-    padding: 10px;
+    padding: 20px;
+    margin-block: 10px;
     background: #ffffff;
     transition: transform 0.3s ease;
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
-  .content:hover {
-    transform: translateY(-5px);
-  }
-
+  
   .equipped {
-    /* display: flex; */
     justify-content: space-between;
     background: #1f212c;
     margin: 40px 0;
@@ -560,7 +553,6 @@ section.header-section {
   }
 
   .equipped-text_content {
-    /* width: 50%; */
     color: #fff;
   }
   .equipped-title {
@@ -586,14 +578,12 @@ section.header-section {
   }
   
   .courses {
-    /* display: flex; */
     flex-wrap: wrap;
     gap: 15px;
     margin-top: 30px;
   }
 
   .badge {
-    /* display: flex; */
     align-items: center;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 30px;
@@ -602,7 +592,6 @@ section.header-section {
   }
 
   .e-image img {
-    /* display: grid; */
     max-width: 100%;
     height: auto;
     border-radius: 10px;
@@ -620,9 +609,6 @@ section.header-section {
   }
 
   .best_section {
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr); */
-    /* justify-content: space-evenly; */
     padding-inline: 10%;
     place-content: center;
   }
@@ -670,17 +656,8 @@ section.header-section {
     margin-top: 5px;
   }
 
-  .graduation-parent {
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr); */
-    /* gap: 1rem; */
-  }
-
   .image3 {
     width: 100%;
-    /* display: flex; */
-    /* justify-content: center;
-    align-items: center; */
     padding-block: 3rem;
   }
 
@@ -695,16 +672,11 @@ section.header-section {
   }
 
   .language_section {
-    /* display: flex; */
     width: 100vw;
     padding-block: 50px;
     padding-inline:0px;
   }
  
-  .language-parent {
-    
-  }
-
   .language-child {
     padding: 50px;
   }
@@ -742,11 +714,6 @@ section.header-section {
   }
 
   .learn-parent {
-    display: flex;
-    margin-inline: auto;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
     color: white;
   }
 
@@ -755,8 +722,7 @@ section.header-section {
   }
 
   .image5 {
-    display: flex;
-    width:500px;
+    width:100%;
     padding: 3rem;
   }
 
@@ -770,7 +736,6 @@ section.header-section {
  }
 
  .icon-child {
-  display: flex;
   gap: 1rem;
  }
 
@@ -796,18 +761,12 @@ section.header-section {
   margin-inline: auto;
  }
 
- .testimony-child {
-  display: flex;
- }
-
  .testimony {
   padding: 10px;
  }
 
  .testimony p {
-  display: flex;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border: 2px solid black;
   border-radius: 10px;
   padding: 20px;
  }
